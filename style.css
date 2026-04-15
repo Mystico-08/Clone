@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 body{
     background-color: #f4f4f4;
@@ -9,7 +10,7 @@ body{
 .nav {
     display: flex;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 10%;
   width: 80%;
   background: white; 
@@ -23,4 +24,31 @@ body{
 .nav >div:first-child{
     font-size: 20px;
     font-weight: 700;
+}
+
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: white;
+    margin:3rem;
+    margin-top:12rem;
+    padding:1rem;
+}
+.sec-1-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:30px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec-1-container >div:nth-child(2){
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec-1-img-flex{
+    display: flex;
+    gap:20px
 }
