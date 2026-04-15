@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+.nav {
+    display: flex;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  background: white; 
+  z-index: 2; 
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+.nav >div:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
